@@ -2,6 +2,25 @@ apiVersion: v1
 entries:
   opentelemetry-collector:
   - apiVersion: v2
+    appVersion: 0.126.0
+    created: "2025-05-16T07:24:06.30308528Z"
+    description: OpenTelemetry Collector Helm chart for Kubernetes
+    digest: 779f34bba6d5f0fec89401ebf8cd32cee5f89484d21385c17c8c63f726220ec4
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    name: opentelemetry-collector
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-collector
+    - https://github.com/open-telemetry/opentelemetry-collector-contrib
+    type: application
+    urls:
+    - https://github.com/OTEL-California/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.125.0/opentelemetry-collector-0.125.0.tgz
+    version: 0.125.0
+  - apiVersion: v2
     appVersion: 0.123.1
     created: "2025-05-01T23:51:03.420478389Z"
     description: OpenTelemetry Collector Helm chart for Kubernetes
@@ -11409,6 +11428,25 @@ entries:
   opentelemetry-operator:
   - apiVersion: v2
     appVersion: 0.124.0
+    created: "2025-05-16T07:24:06.473956145Z"
+    description: OpenTelemetry Operator Helm chart for Kubernetes
+    digest: 9fccd6a9753148063aa5b5d999a415e7836561f9d17f7424f717867e8bfe2e97
+    home: https://opentelemetry.io/
+    icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
+    maintainers:
+    - name: Allex1
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    name: opentelemetry-operator
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-operator
+    type: application
+    urls:
+    - https://github.com/OTEL-California/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.88.6/opentelemetry-operator-0.88.6.tgz
+    version: 0.88.6
+  - apiVersion: v2
+    appVersion: 0.124.0
     created: "2025-05-08T22:34:31.881979355Z"
     description: OpenTelemetry Operator Helm chart for Kubernetes
     digest: 06d40866332c87324c532eb81a296375b50d69973998778b4f5591a4fb82bf86
@@ -15543,4 +15581,4 @@ entries:
     urls:
     - https://github.com/open-telemetry/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.1.0/opentelemetry-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-08T22:34:31.882919635Z"
+generated: "2025-05-16T07:24:06.475497556Z"
