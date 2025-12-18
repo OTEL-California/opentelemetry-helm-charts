@@ -2,6 +2,25 @@ apiVersion: v1
 entries:
   opentelemetry-collector:
   - apiVersion: v2
+    appVersion: 0.142.0
+    created: "2025-12-18T19:21:02.474682717Z"
+    description: OpenTelemetry Collector Helm chart for Kubernetes
+    digest: 051e74061c66c86621766e62489ebde87485e07c6eeffe7a7b4058047c765a33
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    name: opentelemetry-collector
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-collector
+    - https://github.com/open-telemetry/opentelemetry-collector-contrib
+    type: application
+    urls:
+    - https://github.com/OTEL-California/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.142.0/opentelemetry-collector-0.142.0.tgz
+    version: 0.142.0
+  - apiVersion: v2
     appVersion: 0.141.0
     created: "2025-12-11T12:51:52.926620507Z"
     description: OpenTelemetry Collector Helm chart for Kubernetes
@@ -10450,6 +10469,26 @@ entries:
     version: 0.1.0
   opentelemetry-ebpf-instrumentation:
   - apiVersion: v2
+    appVersion: v0.3.0
+    created: "2025-12-18T19:21:02.616845032Z"
+    description: OpenTelemetry eBPF instrumentation Helm chart for Kubernetes
+    digest: d6b49c40141238dad44b86632c8a506cff89921cc3b6d726993d1218d69a647c
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    - name: nimrodavni78
+    name: opentelemetry-ebpf-instrumentation
+    sources:
+    - https://github.com/coralogix/opentelemetry-helm-charts
+    - https://github.com/open-telemetry/opentelemetry-helm-charts
+    type: application
+    urls:
+    - https://github.com/OTEL-California/opentelemetry-helm-charts/releases/download/opentelemetry-ebpf-instrumentation-0.3.0/opentelemetry-ebpf-instrumentation-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: v0.2.0
     created: "2025-12-16T16:27:30.058558211Z"
     description: OpenTelemetry eBPF instrumentation Helm chart for Kubernetes
@@ -12111,6 +12150,25 @@ entries:
     - https://github.com/open-telemetry/opentelemetry-helm-charts/releases/download/opentelemetry-kube-stack-0.0.1/opentelemetry-kube-stack-0.0.1.tgz
     version: 0.0.1
   opentelemetry-operator:
+  - apiVersion: v2
+    appVersion: 0.141.0
+    created: "2025-12-18T19:21:02.785207485Z"
+    description: OpenTelemetry Operator Helm chart for Kubernetes
+    digest: 1ec2d417bf60a23d985a21a3508b7051dd3f7fa0b61caca1f353f5b1e0112033
+    home: https://opentelemetry.io/
+    icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
+    maintainers:
+    - name: Allex1
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    name: opentelemetry-operator
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-operator
+    type: application
+    urls:
+    - https://github.com/OTEL-California/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.102.0/opentelemetry-operator-0.102.0.tgz
+    version: 0.102.0
   - apiVersion: v2
     appVersion: 0.140.0
     created: "2025-12-18T11:22:03.072478663Z"
@@ -16451,4 +16509,4 @@ entries:
     urls:
     - https://github.com/OTEL-California/opentelemetry-helm-charts/releases/download/opentelemetry-target-allocator-0.126.1/opentelemetry-target-allocator-0.126.1.tgz
     version: 0.126.1
-generated: "2025-12-18T11:22:03.073577307Z"
+generated: "2025-12-18T19:21:02.786507393Z"
