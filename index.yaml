@@ -3,6 +3,25 @@ entries:
   opentelemetry-collector:
   - apiVersion: v2
     appVersion: 0.142.0
+    created: "2026-01-07T23:06:49.328809404Z"
+    description: OpenTelemetry Collector Helm chart for Kubernetes
+    digest: 01bff9ae193ec9f2996ac1d4fc93e005de1481ce7709c179bd15c07a468f8ecb
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    name: opentelemetry-collector
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-collector
+    - https://github.com/open-telemetry/opentelemetry-collector-contrib
+    type: application
+    urls:
+    - https://github.com/OTEL-California/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.142.2/opentelemetry-collector-0.142.2.tgz
+    version: 0.142.2
+  - apiVersion: v2
+    appVersion: 0.142.0
     created: "2025-12-23T19:04:56.919203505Z"
     description: OpenTelemetry Collector Helm chart for Kubernetes
     digest: 73c64047d364a58d3bc60276084c505caa7b3aa846c1d83af7b53a3276db2648
@@ -16528,4 +16547,4 @@ entries:
     urls:
     - https://github.com/OTEL-California/opentelemetry-helm-charts/releases/download/opentelemetry-target-allocator-0.126.1/opentelemetry-target-allocator-0.126.1.tgz
     version: 0.126.1
-generated: "2025-12-23T19:04:56.920299066Z"
+generated: "2026-01-07T23:06:49.330480994Z"
